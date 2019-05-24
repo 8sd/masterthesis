@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Demo Page</title>
+  <meta name="description" content="Master Thesis">
+  <meta name="author" content="Sebastian Duda">
+
+  <script src="md.js"></script>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      text-align: justify;
+      box-shadow: 5px 3px 50px 6px #ccc;
+      padding: 1vh 1vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    img {
+      max-width: 800px;
+    }
+    
+    md {
+      visibility: hidden;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>Master Thesis</h1>
+  <p>Abstract:</p>
+  <md src="md/abstract.md"></md>
+  <p>Body:</p>
+  <md src="md/body.md"></md>
+</body>
+</html>
