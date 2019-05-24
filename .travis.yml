@@ -1,9 +1,9 @@
 language: minimal
 
-before_install:
-  - "echo 'install dep'"
-  - "npm install -g spellchecker-cli"
-  - "echo 'done'"
+addons:
+  npm:
+    packages:
+      - "spellchecker-cli"
 
 install:
   - "spellcheck md/*.md"
