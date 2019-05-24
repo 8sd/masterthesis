@@ -1,6 +1,6 @@
 language: minimal
 
-before-install:
+before_install:
   - "echo 'install dep'"
   - "npm install -g spellchecker-cli"
   - "echo 'done'"
