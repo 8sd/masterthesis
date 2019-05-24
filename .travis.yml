@@ -1,0 +1,8 @@
+language: minimal
+
+before-install:
+- "npm install -g spellchecker-cli"
+
+install:
+- "spellcheck md/*.md"
+- "make all"
