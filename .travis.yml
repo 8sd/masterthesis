@@ -1,9 +1,12 @@
 language: minimal
 
 addons:
-  npm:
+  apt:
     packages:
-      - "spellchecker-cli"
+      - npm
+
+before_install:
+  - "sudo npm install --global spellchecker-cli"
 
 install:
   - "spellcheck md/*.md"
