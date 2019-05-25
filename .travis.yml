@@ -8,4 +8,3 @@ addons:
 
 install:
 - "bin/spellcheck.sh md/*.md"
-- "make all"
