@@ -5,7 +5,7 @@
 STATUS=0
 
 for file in "$@"; do
-    WRONG="$(aspell list --conf ./docs/aspell.conf < "$file")"
+    WRONG="$(aspell list --conf ./bin/aspell.conf < "$file")"
     if ! test -z "$WRONG"; then
 	STATUS=1
 	echo "found misspelled words in $file:"
