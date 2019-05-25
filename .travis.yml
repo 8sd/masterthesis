@@ -4,6 +4,7 @@ addons:
   apt:
     packages:
       - npm
+      - nodejs
 
 before_install:
   - "sudo npm install --global spellchecker-cli"
