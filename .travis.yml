@@ -9,5 +9,5 @@ before_install:
   - "sudo npm install --global spellchecker-cli"
 
 install:
-  - "spellcheck md/*.md"
+  - "/usr/local/bin/spellchecker md/*.md"
   - "make all"
