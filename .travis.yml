@@ -1,8 +1,11 @@
 language: minimal
 
-before-install:
-- "npm install -g spellchecker-cli"
+addons:
+  apt:
+    packages:
+      - aspell
+      - aspell-en
 
 install:
-- "spellcheck md/*.md"
+- "bin/spellcheck.sh md/*.md"
 - "make all"
