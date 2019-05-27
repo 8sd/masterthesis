@@ -1,14 +1,13 @@
-An h1 header
-============
+# An h1 header
 
 Paragraphs are separated by a blank line.
 
 2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
 look like:
 
-  * this one
-  * that one
-  * the other one
+* this one
+* that one
+* the other one
 
 Note that --- not considering the asterisk --- the actual text
 content starts at 4-columns in.
@@ -21,12 +20,9 @@ content starts at 4-columns in.
 
 Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
 in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. 
+Unicode is supported.
 
-
-
-An h2 header
-------------
+## An h2 header
 
 Here's a numbered list:
 
@@ -43,7 +39,7 @@ from the left side). Here's a code sample:
 As you probably guessed, indented 4 spaces. By the way, instead of
 indenting the block, you can use delimited blocks, if you like:
 
-### An h3 header ###
+### An h3 header
 
 Now a nested list:
 
@@ -73,14 +69,14 @@ that last line which continues item 3 above).
 
 Here's a link to [a website](http://foo.bar), to a [local
 doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
+doc](#an-h2-header). Here's a footnote [^100].
 
-[^1]: Some footnote text.
+[^100]: Some footnote text.
 
 Tables can look like this:
 
 Name           Size  Material      Color
-------------- -----  ------------  ------------
+---            ---   ---           ---
 All Business      9  leather       brown
 Roundabout       10  hemp canvas   natural
 Cinderella       11  glass         transparent
@@ -90,7 +86,7 @@ Table: Shoes sizes, materials, and colors.
 (The above is the caption for the table.) Pandoc also supports
 multi-line tables:
 
---------  -----------------------
+---       ---
 Keyword   Text
 --------  -----------------------
 red       Sunsets, apples, and
@@ -104,7 +100,7 @@ green     Leaves, grass, frogs
 
 A horizontal rule follows.
 
-***
+---
 
 Here's a definition list:
 
@@ -128,7 +124,7 @@ Here's a "line block" (note how whitespace is honored):
 
 and images can be specified like so:
 
-![example image](resources/example.png "An exemplary image")
+![example image](resources/example.png "An exemplary image"){width=100% height=67%}
 
 Inline math equation: $\omega = d\phi / dt$. Display
 math should get its own line like so:
