@@ -9,7 +9,7 @@ commit: lit
 
 # PDF Targets
 
-pdf: tex/contents/abstract.tex tex/contents/body.tex tex/resources
+pdf: tex/contents/abstract.tex tex/contents/body.tex resources
 	$(MAKE) -C tex all
 
 tex/contents/%.tex: md/%.md
@@ -17,7 +17,7 @@ tex/contents/%.tex: md/%.md
 
 # HTML Targets
 
-html: html/md/abstract.md html/md/body.md html/resources
+html: html/md/abstract.md html/md/body.md resources
 
 html/md/%.md: md/%.md
 	cp $< $@
