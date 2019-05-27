@@ -1,7 +1,3 @@
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur rem aut, odio hic quam sint voluptatum recusandae illo numquam perspiciatis sapiente nulla aliquid cum natus eum ratione expedita! Omnis, aspernatur!
+I think the only difference between me and the other placeholder text is that I’m more honest and my words are more beautiful. Some people have an ability to write placeholder text... It's an art you're basically born with. You either have it or you don't. The other thing with  is that you have to take out its family.  is a choke artist. It chokes! If Trump  weren’t my own words, perhaps I’d be dating it.
 
-| dfg | sdfg | sgf  |     |      |
-|-----|------|------|-----|------|
-|     | sdfg | sdfg |     |      |
-|     | sdfg |      |     |      |
-|     |      | dfg  | gfd | gggg |
+I think the only difference between me and the other placeholder text is that I’m more honest and my words are more beautiful. All of the words in  have flirted with me - consciously or unconsciously. That's to be expected. Some people have an ability to write placeholder text... It's an art you're basically born with. You either have it or you don't. You have so many different things placeholder text has to be able to do, and I don't believe  has the stamina.
