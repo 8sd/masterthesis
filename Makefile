@@ -1,4 +1,4 @@
-.PHONY: all html clean
+.PHONY: all html clean commit
 
 SOURCES := $(wildcard md/??_*.md)
 
@@ -25,8 +25,8 @@ html/md/%.md: md/%.md
 # General Targets
 
 resources: md/resources
-	cp md/resources/* tex/resources/
-	cp md/resources/* html/resources/
+	cp -r md/resources tex/resources
+	cp -r md/resources html/resources
 
 md/body.md: $(SOURCES)
 	cat md/??_*.md > md/body.md
@@ -35,6 +35,7 @@ lit: Literatur
 	ls Literatur > literatur
 
 clean:
-	rm -f thesis.pdf md/body.md tex/contents/abstract.tex tex/contents/body.tex tex/resources/*
-	rm -f html/md/* html/resources/*
+	rm -f thesis.pdf md/body.md tex/contents/abstract.tex tex/contents/body.tex
+	rm -f html/md/*
+	rm -rf html/resources tex/resources
 	$(MAKE) -C tex clean
