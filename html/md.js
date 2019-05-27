@@ -17,6 +17,7 @@
         //parse response
         .then(response => {
           node.innerHTML = marked(response);
+          node.style.visibility = 'visible';
         });
       })(nodeList.item(i));
     }
