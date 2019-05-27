@@ -2,7 +2,10 @@
 
 SOURCES := $(wildcard md/??_*.md)
 
-all: resources pdf html
+all: lit resources pdf html
+
+commit: lit
+	git commit literatur
 
 # PDF Targets
 
