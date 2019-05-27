@@ -11,12 +11,12 @@ The most fundamental software component which can easily be shared across the sy
 
 There are some operating systems which can be used for embedded systems:
 
-* Microsoft's Windows Embedded ^[https://developer.microsoft.com/en-us/windows/iot]
-* The Linux Kernel ^[https://www.kernel.org/]
+* Microsoft's Windows Embedded ^[ https://developer.microsoft.com/en-us/windows/iot ]
+* The Linux Kernel ^[ https://www.kernel.org/ ]
 * The BSD Derivates
-  * FreeBSD ^[https://www.freebsd.org/]
-  * NetBSD ^[https://www.netbsd.org/]
-  * OpenBSD ^[https://www.openbsd.org/]
+  * FreeBSD ^[ https://www.freebsd.org/ ]
+  * NetBSD ^[ https://www.netbsd.org/ ]
+  * OpenBSD ^[ https://www.openbsd.org/ ]
 
 Of course there is still the option to implement an operating system from scratch.
 But the goal is to increase the reuse of software, not to create a new software.
