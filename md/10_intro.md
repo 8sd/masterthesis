@@ -1,26 +1,31 @@
-# Analysis of patches in the Linux Kernel development
+# Introduction
 
-## Introduction
+The automotive indutry uses continously more embedded systems in their products.
+Nearly each additional feature, like electrically adjustable seats or the antilocking system, add more hard- and software components to the car.
+Upcomming features like autonomous driving are highly computing intensive.
+…
 
-automotive contains more and more pcs and embedded systems
+As a result the industry tries to consolidate the software used in the systems.
+The most fundamental software component which can easily be shared across the systems is the operating system.
+…
 
-autonomouse driving will increase it again
+There are some operating systems which can be used for embedded systems:
 
-much software \cite{ma:2013:commercial}
+* Microsoft's Windows Embedded ^[https://developer.microsoft.com/en-us/windows/iot]
+* The Linux Kernel ^[https://www.kernel.org/]
+* The BSD Derivates
+  * FreeBSD ^[https://www.freebsd.org/]
+  * NetBSD ^[https://www.netbsd.org/]
+  * OpenBSD ^[https://www.openbsd.org/]
 
-can we get an os somewhere?
+Of course there is still the option to implement an operating system from scratch.
+But the goal is to increase the reuse of software, not to create a new software.
 
-other industry use more open source
+BMW decided to select Linux as their operating system of choise.
+Concerning the security risk of software in a car the software used has to be certified.
+To tackle this issue BMW joined the ELISA-Project ^[https://www.linuxfoundation.org/press-release/2019/02/the-linux-foundation-launches-elisa-project-enabling-linux-in-safety-critical-systems/].
 
-linux is widely used
-
-automotive wants to use it to
-
-certification is missing
-
--> elisa project
-
-Top-RQ: Can we use linux in safety applications?
+Top-RQ: Can we use Linux in safety applications?
 
 -> wie funktioniert die Zertifizierung?
 
@@ -38,7 +43,9 @@ Wie läuft das ab?
 Was muss ich alles nachweisen?
 
 ### IEC61508-3
+
 #### Inspection
+
 Formal inspection is a structured process to inspect software material that is
 carried out by peers of the person producing the material to find defects and to enable the
 producer to improve the material. The producer should take no part in the inspection process,
@@ -60,6 +67,7 @@ inspection. Dependent on the number and scope of identified defects, the moderat
 determine it to be necessary for a further inspection of the software material.
 
 #### Walk-through
+
 Walk-through is an informal technique, carried out by the producer of a
 software element in the presence of his peers with the objective of finding defects in the
 software element. They may be carried out on specific software elements produced at any
