@@ -28,15 +28,37 @@
     md {
       visibility: hidden;
     }
+
+    .lv1 {
+      text-align: center;
+      font-size: 3em;
+      font-weight: bolder;
+    }
+
+    .lv2 {
+    text-align: center;
+    font-size: 2em;
+      font-weight: bold;
+    }
+
+    .abstract {
+      font-size: 1em;
+      box-shadow: 5px 3px 50px 6px #ccc;
+      padding: 0em 1em;
+    }
   </style>
 
 </head>
 
 <body>
-  <h1>Master Thesis</h1>
-  <p>Abstract:</p>
-  <md src="md/abstract.md"></md>
-  <p>Body:</p>
-  <md src="md/body.md"></md>
+  <p class="lv1">Master Thesis</p>
+  <div class="abstract">
+    <p class="lv2">Abstract:</p>
+    <md src="md/abstract.md"></md>
+  </div>
+  <div class="body">
+    <p class="lv2">Body:</p>
+    <md src="md/body.md"></md>
+  </div>
 </body>
 </html>
